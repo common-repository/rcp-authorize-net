@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Content Pro - Authorize.net\n"
+"POT-Creation-Date: 2019-06-07 15:16-0000\n"
+"PO-Revision-Date: 2019-06-07 15:16-0000\n"
+"Last-Translator: Restrict Content Pro team <support@restrictcontentpro.com>\n"
+"Language-Team: Restrict Content Pro team <support@restrictcontentpro.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/actions.php:69
+msgid "Please enter all required fields."
+msgstr ""
+
+#: includes/admin/settings.php:31
+msgid "Authorize.net Settings"
+msgstr ""
+
+#: includes/admin/settings.php:37
+msgid "Test API Login ID"
+msgstr ""
+
+#: includes/admin/settings.php:41
+msgid "Enter your authorize.net test API login ID."
+msgstr ""
+
+#: includes/admin/settings.php:47
+msgid "Test Transaction Key"
+msgstr ""
+
+#: includes/admin/settings.php:51
+msgid "Enter your authorize.net test transaction key"
+msgstr ""
+
+#: includes/admin/settings.php:57
+msgid "Test Signature Key"
+msgstr ""
+
+#: includes/admin/settings.php:61
+msgid "Enter your authorize.net test signature key"
+msgstr ""
+
+#: includes/admin/settings.php:67
+msgid "Live API Login ID"
+msgstr ""
+
+#: includes/admin/settings.php:71
+msgid "Enter your authorize.net live API login ID."
+msgstr ""
+
+#: includes/admin/settings.php:77
+msgid "Live Transaction Key"
+msgstr ""
+
+#: includes/admin/settings.php:81
+msgid "Enter your authorize.net live transaction key"
+msgstr ""
+
+#: includes/admin/settings.php:87
+msgid "Live Signature Key"
+msgstr ""
+
+#: includes/admin/settings.php:91
+msgid "Enter your authorize.net live signature key"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:84
+msgid "The security code you have entered is invalid"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:88
+msgid "Please enter a Zip / Postal Code code"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:92
+msgid "Please enter the name on card"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:96
+#: includes/class-rcp-anet-payment-gateway.php:132
+msgid "Authorize.net API Login ID or Transaction key is missing."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:106
+msgid ""
+"Authorize.net does not permit subscriptions with renewal periods less than 7 "
+"days."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:110
+msgid ""
+"Authorize.net does not permit subscriptions with renewal periods greater "
+"than 1 year."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:169
+msgid ""
+"Auto renew disabled, as the supplied card expires before the first payment "
+"is scheduled to be taken."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:246
+#: includes/class-rcp-anet-payment-gateway.php:260
+#: includes/class-rcp-anet-payment-gateway.php:371
+#: includes/class-rcp-anet-payment-gateway.php:462
+#: includes/class-rcp-anet-payment-gateway.php:476
+msgid "There was a problem processing your payment."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:247
+#: includes/class-rcp-anet-payment-gateway.php:261
+#: includes/class-rcp-anet-payment-gateway.php:372
+#: includes/class-rcp-anet-payment-gateway.php:463
+#: includes/class-rcp-anet-payment-gateway.php:477
+#, php-format
+msgid "Error code: %s"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:248
+#: includes/class-rcp-anet-payment-gateway.php:262
+#: includes/class-rcp-anet-payment-gateway.php:373
+#: includes/class-rcp-anet-payment-gateway.php:464
+#: includes/class-rcp-anet-payment-gateway.php:478
+#, php-format
+msgid "Error message: %s"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:277
+#, php-format
+msgid "Authorized %s in Authorize.net via transaction ID %s."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:349
+msgid "Subscription started in Authorize.net"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:437
+msgid "There was a problem verifying your payment."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:438
+msgid "Error code: transHashSHA2 mismatch"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:439
+#, php-format
+msgid ""
+"Error message: The hash for transaction ID %s did not match the one provided "
+"by the gateway."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:449
+msgid "Authorize.net Credit Card One Time"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:510
+#: includes/class-rcp-anet-payment-gateway.php:537
+#: includes/class-rcp-anet-payment-gateway.php:543
+#: includes/class-rcp-anet-payment-gateway.php:603
+msgid "Error"
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:537
+msgid "Invalid hash."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:543
+msgid "Missing event type."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:603
+msgid "Missing transaction ID."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:677
+#, php-format
+msgid "Successfully voided initial authorization ID %s."
+msgstr ""
+
+#: includes/class-rcp-anet-payment-gateway.php:696
+msgid "Subscription processed in Authorize.net"
+msgstr ""
+
+#: includes/filters.php:31
+msgid "Credit / Debit Card"
+msgstr ""
+
+#: includes/filters.php:32
+msgid "Authorize.net"
+msgstr ""
+
+#: rcp-authorize-net.php:68
+msgid ""
+"The Restrict Content Pro Authorize.net add-on requires PHP version 5.6 or "
+"later. Please contact your web host and request your site be updated to a "
+"modern PHP version, preferably 7.0 and later."
+msgstr ""
+
+#: rcp-authorize-net.php:78
+msgid ""
+"The Restrict Content Pro Authorize.net add-on requires Restrict Content Pro "
+"version 3.0.5 or later."
+msgstr ""

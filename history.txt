@@ -1,0 +1,2 @@
+1.0.4 - 2021-09-14 - Jared Hill
+	Added new updater.
